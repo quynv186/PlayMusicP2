@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84A9FCFD1DB7685D00647AD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A9FCFC1DB7685D00647AD5 /* AppDelegate.swift */; };
+		84A9FCFF1DB7685D00647AD5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A9FCFE1DB7685D00647AD5 /* ViewController.swift */; };
+		84A9FD021DB7685D00647AD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A9FD001DB7685D00647AD5 /* Main.storyboard */; };
+		84A9FD041DB7685D00647AD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A9FD031DB7685D00647AD5 /* Assets.xcassets */; };
+		84A9FD071DB7685D00647AD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A9FD051DB7685D00647AD5 /* LaunchScreen.storyboard */; };
+		84A9FD171DB768A600647AD5 /* duration.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A9FD0F1DB768A600647AD5 /* duration.png */; };
+		84A9FD181DB768A600647AD5 /* maxVolume.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A9FD101DB768A600647AD5 /* maxVolume.png */; };
+		84A9FD191DB768A600647AD5 /* miniVolume.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A9FD111DB768A600647AD5 /* miniVolume.png */; };
+		84A9FD1A1DB768A600647AD5 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A9FD121DB768A600647AD5 /* music.mp3 */; };
+		84A9FD1B1DB768A600647AD5 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A9FD131DB768A600647AD5 /* pause.png */; };
+		84A9FD1C1DB768A600647AD5 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A9FD141DB768A600647AD5 /* play.png */; };
+		84A9FD1D1DB768A600647AD5 /* thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A9FD151DB768A600647AD5 /* thumb.png */; };
+		84A9FD1E1DB768A600647AD5 /* thumbHightLight.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A9FD161DB768A600647AD5 /* thumbHightLight.png */; };
+		84A9FD201DB768AC00647AD5 /* mute_2_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A9FD1F1DB768AC00647AD5 /* mute_2_2.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84A9FCF91DB7685D00647AD5 /* PlayMusicP2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayMusicP2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84A9FCFC1DB7685D00647AD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84A9FCFE1DB7685D00647AD5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84A9FD011DB7685D00647AD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84A9FD031DB7685D00647AD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84A9FD061DB7685D00647AD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84A9FD081DB7685D00647AD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84A9FD0F1DB768A600647AD5 /* duration.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = duration.png; sourceTree = "<group>"; };
+		84A9FD101DB768A600647AD5 /* maxVolume.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maxVolume.png; sourceTree = "<group>"; };
+		84A9FD111DB768A600647AD5 /* miniVolume.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = miniVolume.png; sourceTree = "<group>"; };
+		84A9FD121DB768A600647AD5 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+		84A9FD131DB768A600647AD5 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		84A9FD141DB768A600647AD5 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		84A9FD151DB768A600647AD5 /* thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumb.png; sourceTree = "<group>"; };
+		84A9FD161DB768A600647AD5 /* thumbHightLight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbHightLight.png; sourceTree = "<group>"; };
+		84A9FD1F1DB768AC00647AD5 /* mute_2_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mute_2_2.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84A9FCF61DB7685D00647AD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84A9FCF01DB7685D00647AD5 = {
+			isa = PBXGroup;
+			children = (
+				84A9FCFB1DB7685D00647AD5 /* PlayMusicP2 */,
+				84A9FCFA1DB7685D00647AD5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84A9FCFA1DB7685D00647AD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84A9FCF91DB7685D00647AD5 /* PlayMusicP2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84A9FCFB1DB7685D00647AD5 /* PlayMusicP2 */ = {
+			isa = PBXGroup;
+			children = (
+				84A9FD0E1DB7689300647AD5 /* resource */,
+				84A9FCFC1DB7685D00647AD5 /* AppDelegate.swift */,
+				84A9FCFE1DB7685D00647AD5 /* ViewController.swift */,
+				84A9FD001DB7685D00647AD5 /* Main.storyboard */,
+				84A9FD031DB7685D00647AD5 /* Assets.xcassets */,
+				84A9FD051DB7685D00647AD5 /* LaunchScreen.storyboard */,
+				84A9FD081DB7685D00647AD5 /* Info.plist */,
+			);
+			path = PlayMusicP2;
+			sourceTree = "<group>";
+		};
+		84A9FD0E1DB7689300647AD5 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				84A9FD1F1DB768AC00647AD5 /* mute_2_2.png */,
+				84A9FD0F1DB768A600647AD5 /* duration.png */,
+				84A9FD101DB768A600647AD5 /* maxVolume.png */,
+				84A9FD111DB768A600647AD5 /* miniVolume.png */,
+				84A9FD121DB768A600647AD5 /* music.mp3 */,
+				84A9FD131DB768A600647AD5 /* pause.png */,
+				84A9FD141DB768A600647AD5 /* play.png */,
+				84A9FD151DB768A600647AD5 /* thumb.png */,
+				84A9FD161DB768A600647AD5 /* thumbHightLight.png */,
+			);
+			name = resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84A9FCF81DB7685D00647AD5 /* PlayMusicP2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84A9FD0B1DB7685D00647AD5 /* Build configuration list for PBXNativeTarget "PlayMusicP2" */;
+			buildPhases = (
+				84A9FCF51DB7685D00647AD5 /* Sources */,
+				84A9FCF61DB7685D00647AD5 /* Frameworks */,
+				84A9FCF71DB7685D00647AD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlayMusicP2;
+			productName = PlayMusicP2;
+			productReference = 84A9FCF91DB7685D00647AD5 /* PlayMusicP2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84A9FCF11DB7685D00647AD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = admin;
+				TargetAttributes = {
+					84A9FCF81DB7685D00647AD5 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 84A9FCF41DB7685D00647AD5 /* Build configuration list for PBXProject "PlayMusicP2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84A9FCF01DB7685D00647AD5;
+			productRefGroup = 84A9FCFA1DB7685D00647AD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84A9FCF81DB7685D00647AD5 /* PlayMusicP2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84A9FCF71DB7685D00647AD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A9FD1D1DB768A600647AD5 /* thumb.png in Resources */,
+				84A9FD071DB7685D00647AD5 /* LaunchScreen.storyboard in Resources */,
+				84A9FD171DB768A600647AD5 /* duration.png in Resources */,
+				84A9FD1C1DB768A600647AD5 /* play.png in Resources */,
+				84A9FD201DB768AC00647AD5 /* mute_2_2.png in Resources */,
+				84A9FD1B1DB768A600647AD5 /* pause.png in Resources */,
+				84A9FD191DB768A600647AD5 /* miniVolume.png in Resources */,
+				84A9FD1E1DB768A600647AD5 /* thumbHightLight.png in Resources */,
+				84A9FD181DB768A600647AD5 /* maxVolume.png in Resources */,
+				84A9FD041DB7685D00647AD5 /* Assets.xcassets in Resources */,
+				84A9FD1A1DB768A600647AD5 /* music.mp3 in Resources */,
+				84A9FD021DB7685D00647AD5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84A9FCF51DB7685D00647AD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A9FCFF1DB7685D00647AD5 /* ViewController.swift in Sources */,
+				84A9FCFD1DB7685D00647AD5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84A9FD001DB7685D00647AD5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84A9FD011DB7685D00647AD5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84A9FD051DB7685D00647AD5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84A9FD061DB7685D00647AD5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84A9FD091DB7685D00647AD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84A9FD0A1DB7685D00647AD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84A9FD0C1DB7685D00647AD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PlayMusicP2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.quynv186.PlayMusicP2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		84A9FD0D1DB7685D00647AD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PlayMusicP2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.quynv186.PlayMusicP2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84A9FCF41DB7685D00647AD5 /* Build configuration list for PBXProject "PlayMusicP2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A9FD091DB7685D00647AD5 /* Debug */,
+				84A9FD0A1DB7685D00647AD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84A9FD0B1DB7685D00647AD5 /* Build configuration list for PBXNativeTarget "PlayMusicP2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A9FD0C1DB7685D00647AD5 /* Debug */,
+				84A9FD0D1DB7685D00647AD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84A9FCF11DB7685D00647AD5 /* Project object */;
+}
