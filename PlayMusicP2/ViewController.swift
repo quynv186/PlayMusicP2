@@ -14,6 +14,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     var audio = AVAudioPlayer()
     var isPlay = false
     var isMute = false
+    var time = Timer()
     
     @IBOutlet weak var sld_Volume: UISlider!
     @IBOutlet weak var btn_Play: UIButton!
@@ -89,12 +90,13 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
             audio.play()
             isPlay = true
             btn_Play.setImage(UIImage(named: "pause.png"), for: .normal)
-            Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(setTime), userInfo: nil, repeats: true)
+            time = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(setTime), userInfo: nil, repeats: true)
             switchChange()
         } else {
             audio.pause()
             isPlay = false
             btn_Play.setImage(UIImage(named: "play.png"), for: .normal)
+            time.invalidate()
         }
     }
     
